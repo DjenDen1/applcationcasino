@@ -8,7 +8,8 @@
 #include <QStringList>
 #include <QVBoxLayout>
 #include <QHBoxLayout>
-
+#include <QMessageBox>
+class Settings;
 class SlotsMachine : public QWidget
 {
     Q_OBJECT
@@ -29,6 +30,8 @@ private:
     int spinCount;
 
     QStringList symbols;
+
+    Settings *settings;
 };
 
 #endif // SLOTS_MACHINE_H

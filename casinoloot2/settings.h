@@ -44,8 +44,6 @@ private slots:
 
     void on_lcd1_overflow();
 
-    void on_lcd2_overflow();
-
 private:
 
 

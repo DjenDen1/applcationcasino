@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QLCDNumber>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
@@ -25,6 +26,9 @@ public:
     QWidget *centralwidget;
     QPushButton *pushButton;
     QPushButton *on_pushButton_2;
+    QPushButton *on_pushButton_3;
+    QLCDNumber *lcdNumber;
+    QPushButton *on_pushButton_4;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -42,7 +46,7 @@ public:
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         pushButton = new QPushButton(centralwidget);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(0, 0, 211, 40));
+        pushButton->setGeometry(QRect(0, 0, 271, 51));
         pushButton->setStyleSheet(QString::fromUtf8("QPushButton\n"
 "{\n"
 "border:none;\n"
@@ -66,8 +70,59 @@ public:
 "}"));
         on_pushButton_2 = new QPushButton(centralwidget);
         on_pushButton_2->setObjectName(QString::fromUtf8("on_pushButton_2"));
-        on_pushButton_2->setGeometry(QRect(0, 90, 211, 41));
+        on_pushButton_2->setGeometry(QRect(0, 90, 271, 51));
         on_pushButton_2->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"border:none;\n"
+"color:white;\n"
+"background-color:orange;\n"
+"font: 600 10.5pt \"Liberation Serif\";\n"
+"position: absolute;\n"
+"border-radius: 10px;\n"
+"}\n"
+"QPushButton:Hover\n"
+"{\n"
+"    background-color:rgb(255,145,0);\n"
+"	border-radius: 10px;\n"
+"}\n"
+"QPushButton:pressed\n"
+"{\n"
+"	background-color:rgb(0,12,0);\n"
+"	color:rgb(0,255,0);\n"
+"	border-radius: 10px;\n"
+"	\n"
+"}"));
+        on_pushButton_3 = new QPushButton(centralwidget);
+        on_pushButton_3->setObjectName(QString::fromUtf8("on_pushButton_3"));
+        on_pushButton_3->setGeometry(QRect(740, 0, 271, 41));
+        on_pushButton_3->setStyleSheet(QString::fromUtf8("QPushButton\n"
+"{\n"
+"border:none;\n"
+"color:white;\n"
+"background-color:orange;\n"
+"font: 600 10.5pt \"Liberation Serif\";\n"
+"position: absolute;\n"
+"border-radius: 10px;\n"
+"}\n"
+"QPushButton:Hover\n"
+"{\n"
+"    background-color:rgb(255,145,0);\n"
+"	border-radius: 10px;\n"
+"}\n"
+"QPushButton:pressed\n"
+"{\n"
+"	background-color:rgb(0,12,0);\n"
+"	color:rgb(0,255,0);\n"
+"	border-radius: 10px;\n"
+"	\n"
+"}"));
+        lcdNumber = new QLCDNumber(centralwidget);
+        lcdNumber->setObjectName(QString::fromUtf8("lcdNumber"));
+        lcdNumber->setGeometry(QRect(1030, 0, 261, 41));
+        on_pushButton_4 = new QPushButton(centralwidget);
+        on_pushButton_4->setObjectName(QString::fromUtf8("on_pushButton_4"));
+        on_pushButton_4->setGeometry(QRect(740, 50, 551, 41));
+        on_pushButton_4->setStyleSheet(QString::fromUtf8("QPushButton\n"
 "{\n"
 "border:none;\n"
 "color:white;\n"
@@ -107,6 +162,8 @@ public:
         RouletteGame->setWindowTitle(QCoreApplication::translate("RouletteGame", "MainWindow", nullptr));
         pushButton->setText(QCoreApplication::translate("RouletteGame", "\320\262\320\265\321\200\320\275\321\203\321\202\321\214\321\201\321\217 \320\275\320\260 \320\277\321\200\320\276\321\210\320\273\321\213\320\271 \321\215\320\272\321\200\320\260\320\275", nullptr));
         on_pushButton_2->setText(QCoreApplication::translate("RouletteGame", "\320\232\320\240\320\243\320\242\320\230\320\242\320\254 \320\240\320\243\320\233\320\225\320\242\320\232\320\243", nullptr));
+        on_pushButton_3->setText(QCoreApplication::translate("RouletteGame", "\320\221\320\260\320\273\320\260\320\275\321\201 \320\244\320\270\321\210\320\265\320\272", nullptr));
+        on_pushButton_4->setText(QCoreApplication::translate("RouletteGame", "\320\241\321\202\320\260\320\262\320\272\320\260", nullptr));
     } // retranslateUi
 
 };

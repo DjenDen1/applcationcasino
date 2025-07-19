@@ -107,9 +107,9 @@ void Roulette::paintGL()
     painter.setPen(Qt::white);
     painter.setFont(QFont("Arial", 16, QFont::Bold));
 
-    painter.drawText(10, 30, QString("Игрок: %1").arg(playername));
-    painter.drawText(10, 60, QString("Фишки: %1").arg(playerChips));
-    painter.drawText(10, 90, QString("Ставка: %1").arg(currentBet));
+    //painter.drawText(10, 30, QString("Игрок: %1").arg(playername));
+    // painter.drawText(10, 60, QString("Фишки: %1").arg(playerChips));
+    //painter.drawText(10, 90, QString("Ставка: %1").arg(currentBet));
 
 
     painter.end();

@@ -44,7 +44,7 @@ class RefeRence;
 
 
 QString path2 = "qrc:/source/sounds/casino-slots-3_fk_6ygn_.mp3";
-QMediaContent content  = QUrl(path2) ;
+QMediaContent content  = QUrl(path2);
 
 
 MainWindow::MainWindow(QWidget *parent)

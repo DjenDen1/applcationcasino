@@ -56,7 +56,7 @@ void MainWindowlootgames::on_pushButton_2_clicked() // перейти к рул�
     {
     this -> hide();
     roulettegame = new class RouletteGame(this);
-    roulettegame -> showMaximized();
+    roulettegame -> showFullScreen();
 
     }
 }
@@ -107,7 +107,7 @@ void MainWindowlootgames::on_pushButton_5_clicked()
 {
     if(!automatgame)
     {
-
+        this -> hide();
         automatgame = new class AutomatGame(this);
         automatgame -> show();
     }

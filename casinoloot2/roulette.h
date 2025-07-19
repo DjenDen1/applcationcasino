@@ -40,10 +40,11 @@ public:
     void setPlayerName( const QString &name);
     void setPlayerChips(int chips);
 
+    void updateRotation();
 
 
 private slots:
-    void updateRotation();
+
     //   void MakeBet();
 private:
 

@@ -12,7 +12,7 @@ Settings::Settings(QWidget *parent)
     ui->setupUi(this);
     setWindowTitle("Настройки");
     ui -> lcd1 -> display(currentBet);
-    ui -> lcd2 -> display(playerChips);
+
 
     // /int bet = QInputDialog::getInt(this, "Ставка", "Введите сумму ставки:", 100, 1, playerChips, 1, &ok);
     // connect(betbutton, &QPushButton::clicked, this, &::Roulette::MakeBet);
@@ -82,9 +82,4 @@ void Settings::on_lcd1_overflow()
 
 }
 
-
-void Settings::on_lcd2_overflow()
-{
-
-}
 
