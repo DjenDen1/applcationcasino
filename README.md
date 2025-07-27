@@ -1,6 +1,4 @@
 Для начала рекомендуется устатоноаить приложение - https://apps.microsoft.com/detail/9NQPSL29BFFF?hl=ru-ru&gl=RU&ocid=pdpshare
-
-Для компиляции приложения вам нужа 
  
 1. Скачать и установить MSYS2 (https://www.msys2.org)
 
