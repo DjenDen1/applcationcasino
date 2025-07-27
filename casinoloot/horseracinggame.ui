@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HorseRacingGame</class>
+ <widget class="QMainWindow" name="HorseRacingGame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1078</width>
+    <height>464</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow
+{
+
+	
+	background-image: url(:/source/resource/i.png);
+	backgroung-size: cover;
+
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+}
+QPushButton:Hover
+{
+    background-color:rgb(255,145,0);
+	border-radius: 10px;
+}
+QPushButton:pressed
+{
+	background-color:rgb(0,12,0);
+	color:rgb(0,255,0);
+	border-radius: 10px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>вернуться на прошлый экран</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="statuslabel1">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>0</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>0</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+}
+QPushButton:Hover
+{
+    background-color:rgb(255,145,0);
+	border-radius: 10px;
+}
+QPushButton:pressed
+{
+	background-color:rgb(0,12,0);
+	color:rgb(0,255,0);
+	border-radius: 10px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>Гонка</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>20</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+}
+QPushButton:Hover
+{
+    background-color:rgb(255,145,0);
+	border-radius: 10px;
+}
+QPushButton:pressed
+{
+	background-color:rgb(0,12,0);
+	color:rgb(0,255,0);
+	border-radius: 10px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>20</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+}
+QPushButton:Hover
+{
+    background-color:rgb(255,145,0);
+	border-radius: 10px;
+}
+QPushButton:pressed
+{
+	background-color:rgb(0,12,0);
+	color:rgb(0,255,0);
+	border-radius: 10px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>20</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+}
+QPushButton:Hover
+{
+    background-color:rgb(255,145,0);
+	border-radius: 10px;
+}
+QPushButton:pressed
+{
+	background-color:rgb(0,12,0);
+	color:rgb(0,255,0);
+	border-radius: 10px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>20</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+}
+QPushButton:Hover
+{
+    background-color:rgb(255,145,0);
+	border-radius: 10px;
+}
+QPushButton:pressed
+{
+	background-color:rgb(0,12,0);
+	color:rgb(0,255,0);
+	border-radius: 10px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>60</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+}
+QPushButton:Hover
+{
+    background-color:rgb(255,145,0);
+	border-radius: 10px;
+}
+QPushButton:pressed
+{
+	background-color:rgb(0,12,0);
+	color:rgb(0,255,0);
+	border-radius: 10px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>Баланс Фишек</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>60</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="digitCount">
+     <number>12</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>130</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+}
+QPushButton:Hover
+{
+    background-color:rgb(255,145,0);
+	border-radius: 10px;
+}
+QPushButton:pressed
+{
+	background-color:rgb(0,12,0);
+	color:rgb(0,255,0);
+	border-radius: 10px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>Ставка</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber_2">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>130</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="digitCount">
+     <number>12</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>200</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+}
+QPushButton:Hover
+{
+    background-color:rgb(255,145,0);
+	border-radius: 10px;
+}
+QPushButton:pressed
+{
+	background-color:rgb(0,12,0);
+	color:rgb(0,255,0);
+	border-radius: 10px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>Победы</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber_3">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>200</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="digitCount">
+     <number>12</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>270</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+}
+QPushButton:Hover
+{
+    background-color:rgb(255,145,0);
+	border-radius: 10px;
+}
+QPushButton:pressed
+{
+	background-color:rgb(0,12,0);
+	color:rgb(0,255,0);
+	border-radius: 10px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>Поражения</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber_4">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>270</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="digitCount">
+     <number>12</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_11">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>340</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+}
+QPushButton:Hover
+{
+    background-color:rgb(255,145,0);
+	border-radius: 10px;
+}
+QPushButton:pressed
+{
+	background-color:rgb(0,12,0);
+	color:rgb(0,255,0);
+	border-radius: 10px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>Количество игр</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber_5">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>340</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="digitCount">
+     <number>12</number>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1078</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

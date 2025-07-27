@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindowlootgames</class>
+ <widget class="QMainWindow" name="MainWindowlootgames">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1393</width>
+    <height>712</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow
+{
+	background-image: url(:/source/resource/q1.jpg);
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius:10px;
+}
+QPushButton:Hover
+{
+    background-color:rgb(255,145,0);
+	border-radius:10px;
+	
+}
+QPushButton:pressed
+{
+	background-color:rgb(0,12,0);
+	color:rgb(0,255,0);
+	border-radius:10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>вернуться в гланое меню</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>230</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:orange;
+font: 600 24pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 20px;
+}
+QPushButton:Hover
+{
+    background-color:rgb(255,145,0);
+	border-radius:20px;
+}
+QPushButton:pressed
+{
+	background-color:rgb(0,12,0);
+	color:rgb(0,255,0);
+	border-radius: 20px;
+
+
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>БЛЭКЖЭК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>370</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:orange;
+font: 600 24pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 20px;
+}
+QPushButton:Hover
+{
+    background-color:rgb(255,145,0);
+	border-radius:20px;
+}
+QPushButton:pressed
+{
+	background-color:rgb(0,12,0);
+	color:rgb(0,255,0);
+	border-radius: 20px;
+
+
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>СКАЧКИ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>230</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:orange;
+font: 600 24pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 20px;
+}
+QPushButton:Hover
+{
+    background-color:rgb(255,145,0);
+	border-radius:20px;
+}
+QPushButton:pressed
+{
+	background-color:rgb(0,12,0);
+	color:rgb(0,255,0);
+	border-radius: 20px;
+
+
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>РУЛЕТКА</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>230</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:orange;
+font: 600 24pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 20px;
+}
+QPushButton:Hover
+{
+    background-color:rgb(255,145,0);
+	border-radius:20px;
+}
+QPushButton:pressed
+{
+	background-color:rgb(0,12,0);
+	color:rgb(0,255,0);
+	border-radius: 20px;
+
+
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>АВТОМАТ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>230</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:orange;
+font: 600 12pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 20px;
+}
+QPushButton:Hover
+{
+    background-color:rgb(255,145,0);
+	border-radius:20px;
+}
+QPushButton:pressed
+{
+	background-color:rgb(0,12,0);
+	color:rgb(0,255,0);
+	border-radius: 20px;
+
+
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>ТРЕХКАРТОЧНЫЙ ПОКЕР</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1393</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

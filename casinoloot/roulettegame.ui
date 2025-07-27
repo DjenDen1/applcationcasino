@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RouletteGame</class>
+ <widget class="QMainWindow" name="RouletteGame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1890</width>
+    <height>860</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow
+
+{
+background-image: url(:/source/resource/backgroungroulette.png);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+}
+QPushButton:Hover
+{
+    background-color:rgb(255,145,0);
+	border-radius: 10px;
+}
+QPushButton:pressed
+{
+	background-color:rgb(0,12,0);
+	color:rgb(0,255,0);
+	border-radius: 10px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>вернуться на прошлый экран</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="on_pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>50</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+}
+QPushButton:Hover
+{
+    background-color:rgb(255,145,0);
+	border-radius: 10px;
+}
+QPushButton:pressed
+{
+	background-color:rgb(0,12,0);
+	color:rgb(0,255,0);
+	border-radius: 10px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>КРУТИТЬ РУЛЕТКУ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="on_pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>0</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+}
+QPushButton:Hover
+{
+    background-color:rgb(255,145,0);
+	border-radius: 10px;
+}
+QPushButton:pressed
+{
+	background-color:rgb(0,12,0);
+	color:rgb(0,255,0);
+	border-radius: 10px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>Баланс Фишек</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>0</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="digitCount">
+     <number>12</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="on_pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>50</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+}
+QPushButton:Hover
+{
+    background-color:rgb(255,145,0);
+	border-radius: 10px;
+}
+QPushButton:pressed
+{
+	background-color:rgb(0,12,0);
+	color:rgb(0,255,0);
+	border-radius: 10px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>Ставка</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber_2">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>50</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>454545</width>
+      <height>454545</height>
+     </size>
+    </property>
+    <property name="digitCount">
+     <number>12</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="on_pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>0</y>
+      <width>501</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+}
+QPushButton:Hover
+{
+    border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+}
+QPushButton:pressed
+{
+	border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Количество Вращений</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="on_pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>50</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+
+}
+QPushButton:Hover
+{
+    border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+}
+QPushButton:pressed
+{
+	border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Количество Побед</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber_3">
+    <property name="geometry">
+     <rect>
+      <x>1370</x>
+      <y>0</y>
+      <width>501</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="digitCount">
+     <number>5</number>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber_4">
+    <property name="geometry">
+     <rect>
+      <x>1140</x>
+      <y>50</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="digitCount">
+     <number>12</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="on_pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>1370</x>
+      <y>50</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+
+}
+QPushButton:Hover
+{
+    border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+}
+QPushButton:pressed
+{
+	border:none;
+color:white;
+background-color:orange;
+font: 600 10.5pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Количество Поражений</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber_5">
+    <property name="geometry">
+     <rect>
+      <x>1650</x>
+      <y>50</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="digitCount">
+     <number>12</number>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1890</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

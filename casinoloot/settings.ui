@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Settings</class>
+ <widget class="QDialog" name="Settings">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>462</width>
+    <height>91</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="BetButtonUL">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>211</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+border:none;
+color:white;
+background-color:rgb(0,128,0);
+font: 600 14pt &quot;Liberation Serif&quot;;
+position: absolute;
+border-radius: 10px;
+}
+QPushButton:Hover
+{
+    background-color:rgb(255,145,0);
+	border-radius: 10px;
+}
+QPushButton:pressed
+{
+	background-color:rgb(0,12,0);
+	color:rgb(0,255,0);
+	border-radius: 10px;
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>Ставка</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcd1">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>0</y>
+     <width>251</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="smallDecimalPoint">
+    <bool>true</bool>
+   </property>
+   <property name="digitCount">
+    <number>4</number>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <slots>
+  <signal>signal1()</signal>
+ </slots>
+</ui>
